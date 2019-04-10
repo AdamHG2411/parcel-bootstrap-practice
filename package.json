@@ -1,0 +1,19 @@
+{
+  "name": "parcel-bootstrap-practice",
+  "version": "1.0.0",
+  "description": "I claim no responsibility for the design of this website. We had an assignment to recreate the appearance of a website using parcel and bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamHG2411/parcel-bootstrap-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamHG2411/parcel-bootstrap-practice/issues"
+  },
+  "homepage": "https://github.com/AdamHG2411/parcel-bootstrap-practice#readme"
+}
