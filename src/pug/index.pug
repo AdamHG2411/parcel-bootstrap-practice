@@ -11,19 +11,19 @@ html(lang="en")
     div.container
       div.row#navigation
         div.col-3#search-box
-          img#search-icon(src="../img/search-icon.svg")
-          input#search-bar(type="search", placeholder="Search")
+          form#search-form
+            img#search-icon(src="../img/search-icon.svg")
+            input#search-bar(type="search", placeholder="Search")
         nav.col-6#nav-links
-          p 
-            a(href="#") Internet Tendency
-            a  | 
-            a(href="#") The Store
-            a  | 
-            a(href="#") Books Division
-            a  | 
-            a(href="#") Quarterly Concern
-            a  | 
-            a(href="#") Donate
+          a(href="#") Internet Tendency
+          a  | 
+          a(href="#") The Store
+          a  | 
+          a(href="#") Books Division
+          a  | 
+          a(href="#") Quarterly Concern
+          a  | 
+          a(href="#") Donate
       header.row
         div.col-3#patreon-container
           img#patreon-logo(src="../img/patreon_buttonb.png", alt="Patreon Logo")
@@ -40,10 +40,87 @@ html(lang="en")
         div.col-6
           h3 McSweeney's Internet Tendency's Patreon
           p AS LITTLE AS A DOLLAR A MONTH IS ALL IT TAKES TO HELP OUR COMEDY SITE AND ITS WRITERS. PLEASE CONSIDER BECOMING A MCSWEENEY'S INTERNET TENDENCY PATRON.
-      div.row
+      div.row#main
+        .col-9#news-1
+          .container
+            .row
+              div.col-4#news-1-left
+                p Left column
+              div.col-8#news-1-center
+                p Center column
+            .row
+              div.col-12#newsletter-form
+                p Sign up now
+            .row
+              div.col-4#news-2-left
+                p left
+              .col-6#news-2-center
+                p center main
+              div.col-2#news-2-cr
+                p cr
+        .col-3#sidebar
+          p This
+          p is
+          p a
+          p test.
+      div.row#friends
+        h2.col-12 Friends & Fellows
+        a.col-2#voice-of-witness(href="#")
+          img(src="../img/vow.png")
+          p VOICE OF WITNESS
+        a.col-2#the-vad-foundation(href="#")
+          img(src="../img/vadf.png")
+          p THE VAD FOUNDATION
+        a.col-2#826-tutoring-centers(href="#")
+          img(src="../img/826.png")
+          p 826 TUTORING CENTERS
+        a.col-2#scholarmatch(href="#")
+          img(src="../img/scholarmatch.png")
+          p SCHOLARMATCH
+        a.col-2#transition-magazine(href="#")
+          img(src="../img/transition.png")
+          p TRANSITION MAGAZINE
+        a.col-2#the-organist(href="#")
+          img(src="../img/organist.png")
+          p THE ORGANIST
+      footer.row
         div.col-3
-          p Left column
-        div.col-6
-          p Center column
-        div.col-3
-          p Right column
+        p.col-6 McSweeney’s is a publishing company based in San Francisco.
+        .col-3
+        .col-3
+        p.col-6 As well as operating a daily humor website, we also publish Timothy McSweeney’s Quarterly Concern and an ever-growing selection of books under various imprints. You can buy all of these things from our online store. We’re also transitioning to a nonprofit and would greatly appreciate your help. You can support us today by making a donation.
+        .col-3
+        .col-2
+        .col-8
+          p
+            a(href="#") INTERNET TENDENCY
+            a  | 
+            a(href="#") THE STORE
+            a  | 
+            a(href="#") BOOKS DIVISION
+            a  | 
+            a(href="#") QUARTERLY CONCERN
+            a  | 
+            a(href="#") DONATE
+            a  | 
+            a(href="#") ABOUT US
+          p
+            a(href="#") EVENTS
+            a  | 
+            a(href="#") EMAIL NEWSLETTER
+            a  | 
+            a(href="#") ADVERTISE
+            a  | 
+            a(href="#") STORE POLICY
+            a  | 
+            a(href="#") CONTACT US
+            a  | 
+            a(href="#") INTERNSHIPS
+            a  | 
+            a(href="#") SUBMISSION GUIDELINES
+        .col-2
+        .col-12
+          img#mcs-logo(src="../img/mcs-chair.png")
+          #fineprint
+            p Copyright © 1998–2019, McSweeney’s Publishing LLC.
+            p All Rights Reserved.

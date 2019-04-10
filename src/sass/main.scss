@@ -1,17 +1,48 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+//borders for visualization
+.col {
+  border: 1px solid black;
+}
+
+.col-1 {
+  border: 1px solid black;
+}
+
+.col-3 {
+  border: 1px solid black;
+}
+
+.col-5 {
+  border: 1px solid black;
+}
+
+.col-6 {
+  border: 1px solid black;
+}
+
+.col-12 {
+  border: 1px solid black;
+}
+
+
+
 body {
   background: #fff;
   font-family: garamond;
 }
 #navigation {
   background: #fafafa;
-  #search-box {
-    background: #fafafa;
-    padding: 8px 20px;
-    #search-bar {
+  #search-form {
+    border: 1px solid lightgrey;
+    #search-box {
       background: #fafafa;
-    }
+      padding: 8px 20px;
+      #search-bar {
+        background: #fafafa;
+      }
+  }
+
   };
   #nav-links {
     background: #fafafa;
@@ -53,20 +84,28 @@ header {
   background: #D1E2FA;
   text-align: center;
 }
-
-//borders for visualization
-.col {
-  border: 1px solid black;
+#news {
+  background: #FFF;
 }
-
-.col-3 {
-  border: 1px solid black;
+#newsletter-form {
+  background: #FFF3E0;
 }
-
-.col-6 {
-  border: 1px solid black;
+#news-2 {
+  background: #FFF;
 }
-
-.col-12 {
-  border: 1px solid black;
+#friends {
+  background: #FFF;
+  text-align: center;
+  img {
+    height: 90px;
+    width: 90px;
+  }
+}
+footer {
+  text-align: center;
+  font-size: 10.2px;
+  #mcs-logo {
+    width: 30px;
+    height: 44px;
+  }
 }
