@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/AdamHG2411/parcel-bootstrap-practice/issues"
   },
-  "homepage": "https://github.com/AdamHG2411/parcel-bootstrap-practice#readme"
+  "homepage": "https://github.com/AdamHG2411/parcel-bootstrap-practice#readme",
+  "devDependencies": {
+    "pug": "^2.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
