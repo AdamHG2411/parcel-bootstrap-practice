@@ -5,34 +5,37 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title McSweeney's Internet Tendency
-    link(src="../sass/main.scss")
-    link(src="../js/index.js")
+    link(rel="stylesheet", href="../sass/main.scss")
+    script(src="../js/index.js" defer)
   body
     div.container
-      div.row
-        input.col-3(type="search")
-        nav.col-6
-          span
+      div.row#navigation
+        div.col-3#search-box
+          img#search-icon(src="../img/search-icon.svg")
+          input#search-bar(type="search", placeholder="Search")
+        nav.col-6#nav-links
+          p 
             a(href="#") Internet Tendency
-            p  | 
+            a  | 
             a(href="#") The Store
-            p  | 
+            a  | 
             a(href="#") Books Division
-            p  | 
+            a  | 
             a(href="#") Quarterly Concern
-            p  | 
+            a  | 
             a(href="#") Donate
       header.row
-        img.col-3(src="#", alt="Patreon Logo")
-        div.col-6
-          h1 McSweeney's
+        div.col-3#patreon-container
+          img#patreon-logo(src="../img/patreon_buttonb.png", alt="Patreon Logo")
+        div.col-6#logo
+          h1 M c S W E E N E Y ' S
           h3 Internet Tendency
           h3 Celebrating Our 21st Year!
-        div.col-3
+        div.col-3#tagline
           p Daily humor
           p almost every day
           p since 1998.
-      div.row
+      div.row#banner
         div.col-3
         div.col-6
           h3 McSweeney's Internet Tendency's Patreon

@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/AdamHG2411/parcel-bootstrap-practice#readme",
   "devDependencies": {
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "sass": "^1.18.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1"
