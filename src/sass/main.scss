@@ -3,204 +3,236 @@
 body {
   background: #fff;
   font-family: garamond;
-  #everything {
-    #navigation {
-      background: #fafafa;
-      #search-box {
-        padding: 8px 20px;
-        #search-form {
-          border: 1px solid lightgrey;
-          #search-icon {
-            height: 10px;
-            width: 10px;
-          }
-          #search-bar {
-            background: #fafafa;
-          }
+  line-height: 145%;
+  #navigation {
+    background: #fafafa;
+    #search-box {
+      padding: 8px 20px;
+      #search-form {
+        border: 1px solid lightgrey;
+        #search-icon {
+          height: 14px;
+          width: 14px;
+          margin: 0 auto;
         }
-      }
-      #nav-links {
-        background: #fafafa;
-        font-size: 10.8px;
-        text-align: center;
-        a {
-          color: #9e9e9e;
-          margin: 10px auto;
-          .separator {
-            color: #9e9e9e;
-          }
-          &:hover {
-            color: #9e9e9e;
-            text-decoration: none;
-          }
+        #search-bar {
+          background: #fafafa;
+          border: 0;
+          font-family: Arial, sans-serif;
+          font-size: 1em;
+          width: 80%;
         }
-      }
-    };
-    header {
-      background: #FFF;
-      text-align: center;
-      #patreon-container {
-        #patreon-logo {
-          width: 150px;
-          height: 130px;
-        }
-      };
-      #logo {
-        background: #FFF;
-        h1 {
-          font-size: 35px;
-        };
-        h3 {
-          font-size: 10px;
-        }
-      }
-      #tagline {
-        background: #FFF;
-      }
-    };
-    #banner {
-      background: #D1E2FA;
-      text-align: center;
-      h3 {
-        color: #000;
-      }
-      p {
-        color: #000;
       }
     }
-    #main {
-      background: #FFF;
-      #news {
-        #news-1-left {
-          color: #000;
-          h6 {
-            color: #000;
-          }
-          h3 {
-            color: #000;
-          }
-          h2 {
-            color: #000;
-          }
-          p {
-            color: #000;
-          }
+    #nav-links {
+      align-self: center;
+      background: #fafafa;
+      font-size: 1em;
+      text-align: center;
+      a {
+        color: #9e9e9e;
+        margin: 10px auto;
+        .separator {
+          color: #9e9e9e;
         }
-        #news-1-center {
-          color: #000;
-          h6 {
-            color: #000;
-          }
-          h3 {
-            color: #000;
-          }
-          h2 {
-            color: #000;
-          }
-          p {
-            color: #000;
-          }
-        }
-        #newsletter-form {
-          background: #FFF3E0;
-        }
-        #news-2 {
-          color: #000;
-          #news-2-left {
-            color: #000;
-            img {
-              height: 140px;
-              width: auto;
-            }
-            h3 {
-
-            }
-            p {
-
-            }
-          }
-          #news-2-center {
-            h6 {
-
-            }
-            h2 {
-
-            }
-            p {
-
-            }
-            a {
-
-            }
-          }
-          #news-2-cr {
-            h2 {
-
-            }
-            img {
-              width: 85px;
-              height: auto;
-            }
-            p {
-
-            }
-            a {
-
-            }
-          }
+        &:hover {
+          color: #9e9e9e;
+          text-decoration: none;
         }
       }
-      #sidebar {
+    }
+  };
+  header {
+    background: #FFF;
+    padding: 36px 0 0 0;
+    text-align: center;
+    #patreon-container {
+      padding: 0;
+      #patreon-logo {
+        padding: 0;
+        width: 150px;
+        height: 130px;
+      }
+    };
+    #logo {
+      background: #FFF;
+      h1 {
+        box-sizing: border-box;
+        font-size: 35px;
+        letter-spacing: 16px;
+        line-height: 48px;
+        text-transform: none;
+      };
+      h3 {
+        font-size: .8em;
+        letter-spacing: 7px;
+        line-height: 15px;
+        text-transform: uppercase;
+      }
+    }
+    #tagline {
+      background: #FFF;
+      font-style: italic;
+      font-size: 1em;
+      line-height: .8em;
+      margin: auto;
+    }
+  };
+  #banner {
+    background: #D1E2FA;
+    text-align: center;
+    h3 {
+      font-family: Arial, sans-serif;
+      font-size: .8em;
+      color: #9e9e9e;
+      line-height: 1.4em;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+    p {
+      color: #0091EA;
+      font-weight: 700;
+    }
+  }
+  #main {
+    background: #FFF;
+    #news {
+      #news-1-left {
+        color: #000;
         h6 {
-
+          color: #000;
         }
         h3 {
-
+          color: #000;
+        }
+        h2 {
+          color: #000;
         }
         p {
-
+          color: #000;
         }
-        a {
-
+      }
+      #news-1-center {
+        color: #000;
+        text-align: center;
+        h6 {
+          color: #000;
         }
-        img {
-          border-radius: 50%;
-          float: right;
-          height: 70px;
-          width: 70px;
+        h3 {
+          color: #000;
+        }
+        h2 {
+          color: #000;
+        }
+        p {
+          color: #000;
+        }
+      }
+      #newsletter-form {
+        background: #FFF3E0;
+        text-align: center;
+      }
+      #news-2 {
+        color: #000;
+        #news-2-left {
+          color: #000;
+          img {
+            height: 140px;
+            width: auto;
+          }
+          h3 {
+
+          }
+          p {
+
+          }
+        }
+        #news-2-center {
+          h6 {
+
+          }
+          h2 {
+
+          }
+          p {
+
+          }
+          a {
+            &::after {
+              content: " ➜";
+              color: #03A9F4;
+              font-weight: normal;
+            }
+          }
+        }
+        #news-2-cr {
+          text-align: center;
+          h2 {
+
+          }
+          img {
+            width: 85px;
+            height: auto;
+          }
+          p {
+
+          }
+          a {
+
+          }
         }
       }
     }
-    #friends {
-      background: #FFF;
-      text-align: center;
-      h2 {
+    #sidebar {
+      h6 {
+
+      }
+      h3 {
+
+      }
+      p {
 
       }
       a {
-
-      }
-      p {
 
       }
       img {
-        height: 90px;
-        width: 90px;
+        border-radius: 50%;
+        float: right;
+        height: 70px;
+        width: 70px;
       }
     }
-    footer {
-      text-align: center;
-      font-size: 10.2px;
-      p {
+  }
+  #friends {
+    background: #FFF;
+    text-align: center;
+    h2 {
 
-      }
-      a {
+    }
+    a {
 
-      }
-      #mcs-logo {
-        width: 30px;
-        height: 44px;
-      }
+    }
+    p {
+
+    }
+    img {
+      height: 90px;
+      width: 90px;
+    }
+  }
+  footer {
+    text-align: center;
+    font-size: 10.2px;
+    p {
+
+    }
+    a {
+
+    }
+    #mcs-logo {
+      width: 30px;
+      height: 44px;
     }
   }
 }
