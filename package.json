@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AdamHG2411/parcel-bootstrap-practice#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "pug": "^2.0.3",
     "sass": "^1.18.0"
   },
