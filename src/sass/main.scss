@@ -80,6 +80,7 @@ body {
       font-size: 1em;
       line-height: .8em;
       margin: auto;
+      flex-direction: column;
     }
   };
   #banner {
@@ -100,6 +101,7 @@ body {
   }
   #main {
     background: #FFFEFA;
+    border: 1px solid #BBB;
     a {
       color: #121212;
       &:hover {
@@ -111,6 +113,9 @@ body {
       #news-1-left {
         .row {
           padding: 5px 0;
+          border-width: 0 0 .5px 0;
+          border-style: solid;
+          border-color: #DDD;
         }
         color: #212121;
         padding: 20px 0;
@@ -131,6 +136,9 @@ body {
         color: #212121;
         text-align: center;
         padding: 20px 30px;
+        border-width: 0 .5px 0 .5px;
+        border-style: solid;
+        border-color: #DDD;
         .row {
           padding: 5px 0;
         }
@@ -169,6 +177,9 @@ body {
           padding: 20px 0;
           .row {
             padding: 5px 0;
+            border-width: 0 0 .5px 0;
+            border-style: solid;
+            border-color: #DDD;
           }
           img {
             height: 140px;
@@ -180,6 +191,7 @@ body {
             font-size: .8em;
           }
           #see-more {
+            border: none;
             a {
               &::after {
                 content: " ➜";
@@ -191,8 +203,14 @@ body {
         }
         #news-2-center {
           padding: 20px 0;
+          border-width: 0 .5px 0 .5px;
+          border-style: solid;
+          border-color: #DDD;
           .row {
             padding: 5px 0;
+            border-width: 0 0 .5px 0;
+            border-style: solid;
+            border-color: #DDD;
           }
           h6 {
             color: #9e9e9e;
@@ -210,6 +228,7 @@ body {
             }
           }
           #final-links {
+            border: none;
             a::after {
               content: " ➜";
             }
@@ -218,11 +237,15 @@ body {
         #news-2-cr {
           text-align: center;
           background: #FFF;
+          border-width: 0 .5px 0 .5px;
+          border-style: solid;
+          border-color: #DDD;
           #contact a {
             color: #03A9F4;
           }
           #submissions a {
             color: #03A9F4;
+            border: none;
           }
           h2 {
             font-size: .8em;
@@ -258,6 +281,9 @@ body {
       padding: 20px 0;
       .row {
         padding: 5px 0;
+        border-width: 0 0 .5px 0;
+        border-style: solid;
+        border-color: #DDD;
       }
       h6 {
         color: #9e9e9e;
@@ -283,7 +309,10 @@ body {
     }
   }
   #friends {
-    background: #FFF;
+    background: #FFFEFA;
+    border-width: 0 0 .5px 0;
+    border-style: solid;
+    border-color: #DDD;
     text-align: center;
     img {
       height: 90px;

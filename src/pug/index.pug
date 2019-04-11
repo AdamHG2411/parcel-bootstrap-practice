@@ -8,12 +8,12 @@ html(lang="en")
     link(rel="stylesheet", href="../sass/main.scss")
     script(src="../js/index.js" defer)
   body
-    div.row#navigation
-      div.col-3#search-box
+    div.row.d-none.d-lg-flex#navigation
+      div.col-12.col-lg-3#search-box
         form#search-form
           img#search-icon(src="../img/search-icon.svg")
           input#search-bar(type="search", placeholder="Search")
-      nav.col-6#nav-links
+      nav.col-12.col-lg-6#nav-links
         a(href="#") Internet Tendency
         a.separator  | 
         a(href="#") The Store
@@ -24,275 +24,282 @@ html(lang="en")
         a.separator  | 
         a(href="#") Donate
     header.row
-      div.col-3#patreon-container
+      div.d-none.d-lg-flex.col-12.col-lg-3#patreon-container
         img#patreon-logo(src="../img/patreon_buttonb.png", alt="Patreon Logo")
-      div.col-6#logo
+      div.col-12.col-lg-6#logo
         h1 McSWEENEY'S
         h3 Internet Tendency
         h3 
           strong Celebrating Our 21st Year!
-      div.col-3#tagline
+      div.d-none.d-lg-flex.col-12.col-lg-3#tagline
         p Daily humor
         p almost every day
         p since 1998.
     div.row#banner
-      div.col-3
-      div.col-6
+      div.col-12.col-lg-3
+      div.col-12.col-lg-6
         h3 McSweeney's Internet Tendency's Patreon
         p AS LITTLE AS A DOLLAR A MONTH IS ALL IT TAKES TO HELP OUR COMEDY SITE AND ITS WRITERS. PLEASE CONSIDER BECOMING A MCSWEENEY'S INTERNET TENDENCY PATRON.
     div.row#main
-      .col-9#news
+      .col-12.col-lg-9#news
         .container
           .row
-            div.col-4#news-1-left
+            div.col-12.col-lg-4#news-1-left
               .container
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     h6 TRENDING
                     a(href="#")
                       h2 List: Attorney General William Barr Summarizes Famous Broadway Musicals
                     p by ORLI MATLOW
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 List: Things I Wish My Therapist Would Say to Me But She Never Does
                     p by LINDA ACUS
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 Supervillains React to Betsy DeVos's Proposal to Gut Funding For the Special Olympics
                     p by ILANA GORDON
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 List: Responses to the Question, "Why Didn't You Ever Have Kids?"
                     p by LISA BORDERS
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 This Is Embarrassing, But It Turns Out Our Fake Jewish Bagel Chain Was Funded By Nazis
                     p by REBECCA SALTZMAN
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 I'm Vaccinating My Child the Natural Way - With Measles
                     p by JUSTINE COTTER
-            div.col-8#news-1-center
+            div.col-12.col-lg-8#news-1-center
               .container
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     h6 OUR LATEST POST
                     a(href="#")
                       h2 TO STOP TRUMP IN 2020, DEMOCRATS HAVE TO STOP INFIGHTING AND UNITE BEHIND CRABBY, THE GIANT MAN-EATING CRAB
                       p "The party simply cannot afford to be held hostage by ideological purity tests. It especially isn't fair to Crabby, who technically contains DNA from rhinos and sharks."
-                    p by JOHNATHAN APPEL
+                      p by JOHNATHAN APPEL
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 If Millennial Home Decor Could Talk
-                    p by FANNY LUOR and TYLER WATAMANUK
+                      p by FANNY LUOR and TYLER WATAMANUK
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 We Think the Best Person to Discuss Racism Is the One Who Said Hitler Was Okay
-                    p by BOB VULFOV
+                      p by BOB VULFOV
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 At the End of the Day, Pinhead and Lady Misery Simply Had Different Definitions of "Defilement," and That's Why She's Leaving the Cenobite Order
-                    p by ANDREW PAUL
+                      p by ANDREW PAUL
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h3 LISTS: Witch Interrogation Guide/Perimenopause Quiz
-                    p by JULIE RIES
+                      p by JULIE RIES
           .row
-            div.col-12#newsletter-form
+            div.col-12.col-lg-12#newsletter-form
               p SIGN UP FOR THE McSWEENEY'S
               p MONTHLY NEWSLETTER.
               form
                 input#email-form(type='email', placeholder='Your Email Address')
                 button(type='button') Sign Up
           .row#news-2
-            div.col-4#news-2-left
+            div.col-12.col-lg-4#news-2-left
               .container
                 .row
-                  h6.col-12 OVER IN THE STORE
-                  img.col-5(src="../img/issue55.jpg")
-                  .col-7 
+                  h6.col-12.col-lg-12 OVER IN THE STORE
+                  .col-4.col-lg-5
+                    img(src="../img/issue55.jpg")
+                  .col-8.col-lg-7 
                     a(href="#")
                       p Out now, Issue 55 gathers work from Laura van den Berg, R.O Kwon, Alexander Chee, and T Kira Madden.
                 .row
-                  img.col-5(src="../img/manifesto.jpg")
-                  .col-7
+                  .col-4.col-lg-5
+                    img(src="../img/manifesto.jpg")
+                  .col-8.col-lg-7
                     a(href="#")
                       p The second installment of our Manifesto Series is available for preorder. Orders will ship late January, 2019. Since the 2016 election, reading the news each day can send even the most placid...
                 .row
-                  img.col-5(src="../img/castle_cover_HIRES.jpg")
-                  .col-7 
+                  .col-4.col-lg-5
+                    img(src="../img/castle_cover_HIRES.jpg")
+                  .col-8.col-lg-7 
                     a(href="#")
                       p When Sophie Swankowski surfaces from the freezing waters, she finds herself in an ancient castle in Poland - and in the center of an ages-old battle. Even with her magical powers, the strength and...
                 .row
-                  img.col-5(src="../img/endoftrust_3D_mockup_front-02.jpg")
-                  .col-7 
+                  .col-4.col-lg-5
+                    img(src="../img/endoftrust_3D_mockup_front-02.jpg")
+                  .col-8.col-lg-7 
                     a(href="#")
                       p In our first-ever entirely nonfiction issue of McSweeney's, The End of Trust features more than thirty writers and artists investigating surveillance in the digital age.
                 .row#see-more
-                  a.col-12(src="#") Visit The Store
-            .col-6#news-2-center
+                  a.col-12.col-lg-12(src="#") Visit The Store
+            .col-12.col-lg-6#news-2-center
               .container
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     h6 RECENT POSTS
                     a(href="#")
                       h2 I Still Believe Every Child Is Precious. Also It Will Take Us Years to Find the Kids We Stole At the Border
                     p by REBECCA SALTZMAN
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h2 I Look Just Like Every Black Woman You've Ever Seen
                     p by KASHANA CAULEY
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h2 List: How to Show Everyone in This Art Museum You Really Fucking Appreciate This Painting
                     p by CARTER HAMBLEY
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h2 Beto's On Tables. Biden's Kissing Everybody. We Need a Woman Who Does Neither. That's Why I Am Lying Here On My Stomach, Ready to Lead
                     p by BROTI GUPTA and KAREN CHEE
                 .row
-                  .col-12
+                  .col-12.col-lg-12
                     a(href="#")
                       h2 Welcome to Blood Fystyvyl: A Transformative Weekend of Music and Luxury Blood Tests On a Remote Island Once Owned by Robert Blake
                     p by SETH FRIED
                 .row#final-links
-                  a.col-12(src="#") Tendency Archive
-                  a.col-12(src="#") Lists
-                  a.col-12(src="#") Open Letters
-                  a.col-12(src="#") Monologues
-                  a.col-12(src="#") All Columns
-            div.col-2#news-2-cr
+                  a.col-12.col-lg-12(src="#") Tendency Archive
+                  a.col-12.col-lg-12(src="#") Lists
+                  a.col-12.col-lg-12(src="#") Open Letters
+                  a.col-12.col-lg-12(src="#") Monologues
+                  a.col-12.col-lg-12(src="#") All columns
+            div.col-12.col-lg-2#news-2-cr
               .container
                 .row
-                  .col-12 
+                  .col-6.col-lg-12 
                     h2 PLEASE ENGAGE WITH OUR BRAND ON SOCIAL MEDIA.
+                  .col-6.col-lg-12
                     img(src="../img/social-links.png")
                 .row#contact
-                  .col-12
+                  .col-12.col-lg-12
                     p Or you may contact our customer service representative. She is a friendly human person.
+                  .col-6.col-lg-12
                     a(href="#") EMAIL US
                     a(href="#") (415) 642-5609
+                  .col-6.col-lg-12
                     p 849 VALENCIA ST.
                     p SF, CA 94110
                 .row#submissions
-                  h5.col-12 Looking for submissions?
+                  h5.col-12.col-lg-12 Looking for submissions?
                     a(href="#") Right this way...
-      .col-3#sidebar
+      .col-12.col-lg-3#sidebar
         .container
           .row
-            .col-12
+            .col-12.col-lg-12
               h6 OVER AT MCSWEENEY'S PUBLISHING
               img(src="../img/mcs-chair-qtr.jpg")
               a(href="#")
                 p Submission Call for McSweeney's Quarterly: THE AMERICAN PIE by McSWEENEY's
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/phoenix.png")
               a(href="#")
                 p Phoenix, a New Mini-Book by Dave Eggers About His Visit to an Arizona Trump Rally, at Which Dozens of Citizens Freely Carried AR-15s, Hundreds (Including the Author) Were Teargassed, and Miraculously No One Was Killed or Wounded
               p by McSWEENEY'S
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/leland.jpg")
               a(href="#")
                 p McSweeney's Books: An Interview with Leland De La Durantaye About His Novel, Hannah Versus the Tree
               p by AMANDA UHLE
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/natmag.jpg")
               a(href="#")
                 p McSweeney's Wins the 2019 National Magazine Award for Fiction
               p by McSWEENEY'S
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/parade.gif")
               a(href="#")
                 p An Interview With Dave Eggers About His New Novel, The Parade
               p by KNOPF
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/oulipian.png")
               a(href="#")
                 p Oulipian Excerpts from All That is Evident is Suspect: Herve Le Tellier, from Liquid Tales
               p by HERVE LE TELLIER
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/puffer.png")
               a(href="#")
                 p Puffer Problems
               p by AMY FUSSELMAN
           .row
-            .col-12
+            .col-12.col-lg-12
               h6 NEWS & ANNOUNCEMENTS
               img(src="../img/musicians.png")
               a(href="#")
                 p World's Great Musicians Donate Concert Setlists to Benefit Youth Writing Centers
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/alliance.png")
               a(href="#") 
                 p CLICK TO LEARN MORE ABOUT THE INTERNATIONAL ALLIANCE OF YOUTH WRITING CENTERS, A COALITION OF YOUTH WRITING LABS FROM AROUND THE WORLD.
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/presents.jpg")
               a(href="#")
                 p Coming Soon: "McSweeney's Presents" - a new radio venture with WBUR Boston.
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/heroes.png")
               a(href="#")
                 p BEHOLD THE HEROES ON OUR PATREON DONOR WALL OF FAME!
           .row
-            .col-12
+            .col-12.col-lg-12
               img(src="../img/daveeggersnet.png")
               a(href="#")
                 p Also visit daveeggers.net
     div.row#friends
-      .col-2
-      .col-8
+      .d-none.d-lg-flex.col-lg-2
+      .col-12.col-lg-8
         .container
           .row
-            h2.col-12 Friends & Fellows
-            a.col-2#voice-of-witness(href="#")
+            h2.col-12.col-lg-12 Friends & Fellows
+            a.col-6.col-lg-2#voice-of-witness(href="#")
               img(src="../img/vow.png")
               p VOICE OF WITNESS
-            a.col-2#the-vad-foundation(href="#")
+            a.col-6.col-lg-2#the-vad-foundation(href="#")
               img(src="../img/vadf.png")
               p THE VAD FOUNDATION
-            a.col-2#826-tutoring-centers(href="#")
+            a.col-6.col-lg-2#826-tutoring-centers(href="#")
               img(src="../img/826.png")
               p 826 TUTORING CENTERS
-            a.col-2#scholarmatch(href="#")
+            a.col-6.col-lg-2#scholarmatch(href="#")
               img(src="../img/scholarmatch.png")
               p SCHOLARMATCH
-            a.col-2#transition-magazine(href="#")
+            a.col-6.col-lg-2#transition-magazine(href="#")
               img(src="../img/transition.png")
               p TRANSITION MAGAZINE
-            a.col-2#the-organist(href="#")
+            a.col-6.col-lg-2#the-organist(href="#")
               img(src="../img/organist.png")
               p THE ORGANIST
-      .col-2
+      .d-none.d-lg-flex.col-lg-2
     footer.row
-        div.col-3
-        p.col-6 McSweeney’s is a publishing company based in San Francisco.
-        .col-3
-        .col-3
-        p.col-6 As well as operating a daily humor website, we also publish Timothy McSweeney’s Quarterly Concern and an ever-growing selection of books under various imprints. You can buy all of these things from our online store. We’re also transitioning to a nonprofit and would greatly appreciate your help. You can support us today by making a donation.
-        .col-3
-        .col-2
-        .col-8
+        div.col-12.col-lg-3
+        p.col-12.col-lg-6 McSweeney’s is a publishing company based in San Francisco.
+        .col-12.col-lg-3
+        .col-12.col-lg-3
+        p.col-12.col-lg-6 As well as operating a daily humor website, we also publish Timothy McSweeney’s Quarterly Concern and an ever-growing selection of books under various imprints. You can buy all of these things from our online store. We’re also transitioning to a nonprofit and would greatly appreciate your help. You can support us today by making a donation.
+        .col-12.col-lg-3
+        .col-12.col-lg-2
+        .col-12.col-lg-8
           h5
             a(href="#") INTERNET TENDENCY
             a  | 
@@ -319,8 +326,8 @@ html(lang="en")
             a(href="#") INTERNSHIPS
             a  | 
             a(href="#") SUBMISSION GUIDELINES
-        .col-2
-        .col-12
+        .col-12.col-lg-2
+        .col-12.col-lg-12
           img#mcs-logo(src="../img/mcs-chair.png")
           #fineprint
             p Copyright © 1998–2019, McSweeney’s Publishing LLC.
