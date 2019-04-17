@@ -1,1 +1,0 @@
-{"version":3,"sources":["../js/index.js"],"names":["console","log"],"mappings":";AAAAA,QAAQC,IAAI","file":"js.ca47c720.js","sourceRoot":"../src/pug","sourcesContent":["console.log('JS is linked')"]}
