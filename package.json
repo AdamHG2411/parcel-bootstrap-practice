@@ -4,6 +4,8 @@
   "description": "I claim no responsibility for the design of this website. We had an assignment to recreate the appearance of a website using parcel and bootstrap.",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/pug/index.pug",
+    "build": "parcel build src/pug/index.pug",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "rm -rf dist && parcel build src/pug/index.pug --public-url /parcel-bootstrap-practice",
     "deploy": "gh-pages -d dist"
